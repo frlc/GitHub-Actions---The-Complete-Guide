@@ -7,7 +7,7 @@ jobs:
       - name: Get code
         uses: actions/checkout@v4
         with:
-          show-progress: ''
+          show-progress: 'true'
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
